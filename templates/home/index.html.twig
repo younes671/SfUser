@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+{# app.user pour recupéré info user avec twig, si dans entity ou controller $this->user #}
+<h1>Bienvenue {{ app.user.pseudo }} </h1>
+{% endblock %}
